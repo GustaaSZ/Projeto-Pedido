@@ -97,7 +97,7 @@ public class Order {
             sb.append("\nNome do Produto: "+ordem.getProduto().getNome()+
             "\nPreço do Produto: "+ordem.getProduto().getPrice()+
             "\nQuantidade de "+ordem.getProduto().getNome()+": "+ordem.getQuantity()+
-            "\nSubtotal: "+String.format("%.2f", ordem.subTotal()));
+            "\nSubtotal: "+String.format("%.2f", ordem.subTotal())+"\n");
         }
         sb.append("\n\nValor total de todos os produtos: R$"+String.format("%.2f",total())+"\n");
 
